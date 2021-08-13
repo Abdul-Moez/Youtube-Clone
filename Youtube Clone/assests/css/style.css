@@ -123,17 +123,19 @@ label #sidebar_btn{
     line-height: 2.5rem !important;
     font-size: 25px !important;
 }
-/* 
-#check:checked ~ .sidebar .side-close{
 
+#check:checked ~ .sidebar .side-close{
+    margin-left: 12rem;
+    display: block;
 }
 
 .side-close{
+    display: none;
     color: white;
     text-align: center;
     margin-left: -8.8rem;
     font-size: 10px;
-} */
+}
 
 
 .footer{
