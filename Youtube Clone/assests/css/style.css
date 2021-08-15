@@ -40,6 +40,8 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
+/* SIDEBAR START */
+
 .sidebar {
   overflow: scroll !important;
   background: #2f323a;
@@ -47,6 +49,7 @@ body{
   left: 0;
   width: 250px;
   height: 100%;
+  transition: all 0.2s ease-in;
 }
 
 .sidebar a{
@@ -57,12 +60,15 @@ body{
   text-decoration: none;
   padding-left: 40px;
   box-sizing: border-box;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
 }
 
 .sidebar i{
   padding-right: 10px;
 }
 .sidebar span{
+    padding-left: 10px;
   color: white;
 }
 
@@ -98,6 +104,7 @@ label #sidebar_btn{
 
 #check:checked ~ .content{
   margin-left: 60px;
+  transition: all 0.2s ease-in;
 }
 
 #check{
@@ -120,11 +127,12 @@ label #sidebar_btn{
 }
 
 #check:checked ~ .sidebar i{
-    line-height: 2.5rem !important;
-    font-size: 25px !important;
+    line-height: 2rem !important;
+    font-size: 23px !important;
 }
 
 #check:checked ~ .sidebar .side-close{
+    margin-top: -0.5rem;
     margin-left: 12rem;
     display: block;
 }
@@ -137,15 +145,12 @@ label #sidebar_btn{
     font-size: 10px;
 }
 
-
 .footer{
     font-size: 12px;
     flex-wrap: wrap;
     display: flex;
     font-weight: 700;
 }
-
-/* SIDEBAR */
 
 #sidebar {
   background: #202020;
@@ -185,8 +190,6 @@ label #sidebar_btn{
     color: white;
     cursor: pointer;
 }
-
-/* SIDEBAR OPEN */
 
 .sidebar {
   top: 0;
@@ -241,6 +244,7 @@ label #sidebar_btn{
     font-size: 14px;
 }
 
+/* SIDEBAR CLOSE */
 
 .grid-container {
   display: grid;
