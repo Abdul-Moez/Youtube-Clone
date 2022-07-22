@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Youtube | Serverless Computing in 100 Seconds</title>
+    <!-- Facicon -->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <!-- style css -->
+    <link rel="stylesheet" href="../assests/css/video.css">
+    <!-- Latest Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="./css/all.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- BoxIcons -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+  <input type="checkbox" id="check" checked>
+  <label for="check">
+    <i class="fas fa-bars" id="sidebar_btn"></i>
+  </label>
+<!--sidebar start-->
+<div class="sidebar">
+  <a href="#"><i class='bx bxs-home sidebar-icon' style="margin-top: 0.5rem; margin-bottom:0.5rem;"></i><span class="side-line">Home</span></a>
+  <p class="side-close">Home</p>
+  <a href="#"><i class='bx bxs-compass sidebar-icon' style="margin-top: 0.5rem; margin-bottom:0.5rem;"></i><span class="side-line">Explore</span></a>
+  <p class="side-close">Explore</p>
+  <a href="#"><i class="bi bi-collection-play-fill sidebar-icon" style="margin-top: 0.5rem; margin-bottom:0.5rem;"></i><span class="side-line">Subscription</span></a>
+  <p class="side-close">Subscription</p>
+  <div class="line"></div>
+  <a href="#"><i class='bx bxs-videos sidebar-icon' style="margin-top: 0.5rem; margin-bottom:0.5rem;"></i><span class="side-line">Library</span></a>
+  <p class="side-close">Library</p>
+  <a href="#"><i class='bx bx-history bx-sm sidebar-icon-1' style="margin-top: 0.5rem; margin-bottom:0.5rem;"></i><span class="side-line">History</span></a>
+  <a href="#"><i class="bx bxl-youtube bx-sm sidebar-icon-1" style="margin-top: 0.5rem; margin-bottom:0.5rem;"></i><span class="side-line">Your videos</span></a>
+  <a href="#"><i class='bi bi-clock-fill sidebar-icon-1' style="margin-top: 0.5rem; margin-bottom:0.5rem;"></i><span class="side-line">Watch later</span></a>
+  <a href="#"><i class="bi bi-hand-thumbs-up-fill sidebar-icon-1" style="margin-top: 0.5rem; margin-bottom:0.5rem;"></i><span class="side-line">Liked videos</span></a>
+  <a href="#"><i class='bx bxs-chevron-down bx-sm sidebar-icon-1' style="margin-top: 0.5rem; margin-bottom:0.5rem;"></i><span class="side-line">Show more</span></a>
+  <div class="line"></div>
+  <p class="subsc">SUBSCRIPTIONS</p>
+  <a href="#">
+    <img src="./img/c1.jpg" class="channel-pic channel-side" style="width: 1.5rem; margin-top: -0.1rem; margin-right: 0.8rem;"><span class="side-line">Web Dev Simplified</span></a>
+  <a href="#">
+    <img src="./img/c2.jpg" class="channel-pic channel-side" style="width: 1.5rem; margin-top: -0.1rem; margin-right: 0.8rem;"><span class="side-line">Fireship</span></a>
+  <a href="#">
+    <img src="./img/c3.jpg" class="channel-pic channel-side" style="width: 1.5rem; margin-top: -0.1rem; margin-right: 0.8rem;"><span class="side-line">Random Hands</span></a>
+  <a href="#">
+    <img src="./img/c4.jpg" class="channel-pic channel-side" style="width: 1.5rem; margin-top: -0.1rem; margin-right: 0.8rem;"><span class="side-line">GFXMentor</span></a>
+  <a href="#">
+    <img src="./img/c5.jpg" class="channel-pic channel-side" style="width: 1.5rem; margin-top: -0.1rem; margin-right: 0.8rem;"><span class="side-line">Windows</span></a>
+  <a href="#">
+    <img src="./img/c6.jpg" class="channel-pic channel-side" style="width: 1.5rem; margin-top: -0.1rem; margin-right: 0.8rem;"><span class="side-line">DarkCode</span></a>
+  <a href="#">
+    <img src="./img/c7.jpg" class="channel-pic channel-side" style="width: 1.5rem; margin-top: -0.1rem; margin-right: 0.8rem;"><span class="side-line">freeCodeCamp.org</span></a>
+  <a href="#"><i class='bx bxs-chevron-down bx-sm sidebar-icon-1' style="margin-top: 0.5rem; margin-bottom:0.5rem;"></i><span class="side-line">Show 10 more</span></a>
+  <div class="line"></div>
+  <p class="subsc">MORE FROM YOUTUBE</p>
+  <a href="#"><i class='bi bi-controller sidebar-icon-1' style="margin-top: 0.5rem; margin-bottom:0.5rem;"></i><span class="side-line">Gaming</span></a>
+  <a href="#"><i class='bi bi-broadcast sidebar-icon-1' style="margin-top: 0.5rem; margin-bottom:0.5rem;"></i><span class="side-line">Live</span></a>
+  <a href="#"><i class='bx bxs-trophy sidebar-icon-1' style="margin-top: 0.5rem; margin-bottom:0.5rem;"></i><span class="side-line">Sports</span></a>
+  <div class="line"></div>
+  <a href="#"><i class='bx bxs-cog sidebar-icon-1' style="margin-top: 0.5rem; margin-bottom:0.5rem;"></i><span class="side-line">Sports</span></a>
+  <a href="#"><i class='bx bxs-flag-alt sidebar-icon-1' style="margin-top: 0.5rem; margin-bottom:0.5rem;"></i><span class="side-line">Report history</span></a>
+  <a href="#"><i class='bi bi-question-circle-fill sidebar-icon-1' style="margin-top: 0.5rem; margin-bottom:0.5rem;"></i><span class="side-line">Help</span></a>
+  <a href="#"><i class='bi bi-exclamation-square-fill sidebar-icon-1' style="margin-top: 0.5rem; margin-bottom:0.5rem;"></i><span class="side-line">Send feedback</span></a>
+  <div class="line"></div>
+  <p class="footer">
+    <a href="#" class="footer-links">About</a>
+    <a href="#" class="footer-links">Press</a>
+    <a href="#" class="footer-links">Copyright</a>
+    <a href="#" class="footer-links">Contact us</a>
+    <a href="#" class="footer-links">Creators</a>
+    <a href="#" class="footer-links">Advertise</a>
+    <a href="#" class="footer-links">Developers</a>
+  </br>
+</br>
+  <a href="#" class="footer-links">Terms</a>
+  <a href="#" class="footer-links">Privacy</a>
+  <a href="#" class="footer-links">Policy & Safety</a>
+  <a href="#" class="footer-links">How Youtube Works</a>
+  <a href="#" class="footer-links">Test New Features</a>
+  </p>
+</div>
+<!--sidebar end-->
+<div class="content">
+    <nav>
+      <div id="navbar">
+          <div class="left">
+              <a href="../index.html" class="logo-link"><img src="./img/yt-logo.png" alt="LOGO" class="logo-img"></a>
+          </div>
+          <div class="center">
+              <div class="search_bar">
+                  <input type="text" name="" id="" class="search" placeholder="Search">
+                  <button class="search_btn"><i class="bi bi-search"></i></button>
+              </div>
+              <button class="mic"><i class='bx bxs-microphone'></i></button>
+          </div>
+          <div class="right">
+              <div class="search-icon">
+                  <i class='bx bx-search bx-sm'></i>
+              </div>
+              <div class="add-video">
+                  <i class='bx bxs-video-plus bx-sm'></i>
+              </div>
+              <div class="more">
+                  <i class='bx bxs-grid bx-sm'></i>
+              </div>
+              <div class="notification">
+                  <i class='bx bxs-bell bx-sm'></i>
+              </div>
+              <div class="profile">
+                  <img src="https://picsum.photos/50" alt="Profile" class="profile-pic">
+              </div>
+          </div>
+      </div>
+    </nav>
+
+    <div class="embed-vid">
+      <iframe src="https://www.youtube.com/embed/W_VV2Fx32_Y?autoplay=1" width="560" height="315" frameborder="0"></iframe>
+    </div>
+
+    <p class="vid-title">Serverless Computing in 100 Seconds</p>
+    <div class="v-like">
+      <p class="views-time">6,732 views • Aug 14, 2021</p>
+      <i class="bi bi-hand-thumbs-up-fill like-icon"></i><span class="like">102K</span>
+      <i class="bi bi-hand-thumbs-down-fill dislike-icon"></i><span class="dislike">821</span>
+      <i class='bx bxs-share bx-flip-horizontal bx-sm share-icon'></i><span class="share">Share</span>
+      <i class='bx bx-list-plus bx-sm save-icon'></i><span class="save">Save</span>
+      <i class='bx bx-dots-horizontal-rounded dot-icon bx-sm' ></i>
+    </div>
+    <div class="line"></div>
+</div>
+
+<!-- FontAwesome JS -->
+<script src="./js/all.js"></script>
+<!-- BoxIcons -->
+<script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+
+<!-- script js -->
+<script src=".js/script.js"></script>
+    
+<!-- jQuery library -->
+<script src=".js/Jquerry-3.6.0.js"></script>
+    
+<!-- jQuery Min library -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<!-- Minified Bootstrap JavaScript-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+</body>
+</html>
